@@ -1,0 +1,157 @@
+body {
+  background-color: rgb(250, 141, 199) 0.9%;
+}
+.container-full {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(184, 85, 4) 0%,
+    rgb(250, 219, 163) 21.8%,
+    rgb(252, 251, 224) 35.6%,
+    rgb(244, 244, 75) 52.9%,
+    rgb(250, 227, 189) 66.8%,
+    rgb(248, 172, 172) 90%,
+    rgb(252, 71, 64) 99.7%
+  );
+  border: 20px;
+  border-radius: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.middle {
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.current-city {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+  width: 200px;
+  font-size: larger;
+  background-color: rgb(252, 246, 134);
+  border-color: rgb(252, 246, 134);
+}
+.place-of-interest {
+  flex: 3;
+  width: 200px;
+  font-size: larger;
+  background-color: #fff;
+  border-color: white;
+}
+
+.search-cities {
+  margin-left: 20px;
+  margin-right: 10px;
+  flex: 1;
+  width: 200px;
+  font-size: larger;
+  background-color: red;
+  text-align: right;
+  border-color: red;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+#this-day {
+  font-size: 18px;
+}
+
+#this-date {
+  font-size: 18px;
+}
+.min-secs {
+  font-size: 18px;
+}
+
+.middle-container {
+  display: flex;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.search-city {
+  padding: 20px;
+  margin-right: 10px;
+  border: #fff;
+  background-color: #fff;
+  border-style: dashed;
+  border-radius: 10px;
+  flex: 2;
+}
+.searched-description {
+  padding: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  flex: 1;
+}
+.icon-temp {
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: right;
+  flex: 1;
+}
+
+#describe {
+  font-size: 18px;
+  color: red;
+  text-transform: capitalize;
+}
+
+.small-icon {
+  color: white;
+}
+.current-temp {
+  display: inline-block;
+}
+.celsius {
+  font-size: 90px;
+  display: inline-block;
+}
+.unit-links {
+  font-size: 30px;
+  color: white;
+}
+
+#celsius-convert {
+  color: red;
+  text-decoration: none;
+}
+
+#fahrenheit-convert {
+  color: red;
+  text-decoration: none;
+}
+h2 {
+  font-size: 100px;
+}
+
+#last-one {
+  padding-left: 20px;
+}
+.new-color {
+  color: red;
+  font-size: larger;
+}
+
+.dated {
+  font-size: 20px;
+}
+.small-icon {
+  font-size: 70px;
+}
+
+.final {
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.linking {
+  text-align: center;
+}
