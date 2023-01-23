@@ -14,7 +14,7 @@ body {
   );
   border: 20px;
   border-radius: 20px;
-  width: 50%;
+  max-width: 800px;
   margin-left: 25%;
   margin-top: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -76,6 +76,7 @@ h1 {
 }
 .search-city {
   padding: 20px;
+  margin-top: 20px;
   margin-right: 10px;
   border: #fff;
   background-color: #fff;
@@ -100,7 +101,7 @@ h1 {
 
 #describe {
   font-size: 18px;
-  color: red;
+  color: rgba(136, 21, 65, 0.374);
   text-transform: capitalize;
 }
 
@@ -132,24 +133,27 @@ h2 {
   font-size: 100px;
 }
 
-#last-one {
-  padding-left: 20px;
-}
 .new-color {
   color: red;
   font-size: larger;
 }
 
-.dated {
-  font-size: 20px;
-}
-.small-icon {
-  font-size: 70px;
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
 }
 
-.final {
-  padding-bottom: 30px;
+.weather-forecast-date {
   font-size: 20px;
+  color: rgb(23, 22, 22);
+}
+
+.weather-forecast-temperatures {
+  font-size: 17px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.7;
 }
 
 .linking {
